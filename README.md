@@ -30,7 +30,6 @@ All the code and comments are in GAN.ipynb.
 
 Instead of Relu we use LeakyReLu throughout the discriminator (we use a negative slope value of 0.2). 
 
-The output of your discriminator should be a single value score corresponding to each input sample. See `torch.nn.LeakyReLU`.
 
 
 **Generator:**
